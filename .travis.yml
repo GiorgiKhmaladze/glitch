@@ -7,5 +7,5 @@ before_script:
  - npm install -g firebase-tools
 script:
  - webpack
- after_success:
-  - firebase deploy --token 1//0cHYxUc7NNVhPCgYIARAAGAwSNwF-L9Ir6fWuSm2BHVCbsbHWSFqZoMe86e36eFOuwUnPH9koaXC0W3RQ2jwUzFryiJRRvnD82Aw --non-interactive
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
