@@ -8,4 +8,4 @@ before_script:
 script:
  - webpack
  after_success:
-  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+  - firebase deploy --token 1//0cHYxUc7NNVhPCgYIARAAGAwSNwF-L9Ir6fWuSm2BHVCbsbHWSFqZoMe86e36eFOuwUnPH9koaXC0W3RQ2jwUzFryiJRRvnD82Aw --non-interactive
